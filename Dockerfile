@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/* # clean up
 
 RUN apt-get update && apt-get install -y \
+    bat \
     htop \
     nano \
     openssh-server \
