@@ -22,6 +22,6 @@ test: build
 	docker-compose run --rm julia julia -e 'using Pkg; Pkg.activate("."); Pkg.test()'
 
 clean:
-	docker-compose down
+	-docker-compose down
 	-rm -f  Manifest.toml docs/Manifest.toml
 	-rm -rf docs/build
