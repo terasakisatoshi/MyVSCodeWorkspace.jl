@@ -1,0 +1,4 @@
+name = "MyVSCodeWorkspace"
+uuid = "990d6c27-2431-43b2-aa54-d438af022a7d"
+authors = ["Satoshi Terasaki <terasakisatoshi.math@gmail.com>"]
+version = "0.1.0"
